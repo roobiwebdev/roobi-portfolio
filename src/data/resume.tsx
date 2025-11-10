@@ -2,16 +2,29 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "yeabsra Ashebir",
-  initials: "YA",
-  url: "https://dillion.io",
-  location: " Addis Ababa, Ethiopia",
+  name: "Roobi Mulatu",
+  initials: "RM",
+  url: "https://github.com/roobiwebdev",
+  location: " Hawassa, Ethiopia",
   locationLink: "https://maps.app.goo.gl/SDaUMo2GCskmfuuH7",
   description:
-    "Intermediate Fullstack developer. I love building things and share them on the internet.",
+    "AI Enginner & Full-stack Developer helping businesses save time, cut costs, and scale faster with smart AI systems that just work.",
+  // summary:
+  //   "I am a Intermediate Full stack web and mobile developer with experience of working in a Typescript ecosystem. I use various technologies to build scaleable, fast and efficient software that satisfy the need of companies and client's. I like working in the challenging enviroment where i get to learn and grow as a professional while bringing a value to a company. ",
+  titles: [
+    "AI Automation Systems",
+    "Voice AI & Real-Time Agents",
+    "Custom Integrations & Dashboards",
+  ],
   summary:
-    "I am a Intermediate Full stack web and mobile developer with experience of working in a Typescript ecosystem. I use various technologies to build scaleable, fast and efficient software that satisfy the need of companies and client's. I like working in the challenging enviroment where i get to learn and grow as a professional while bringing a value to a company. ",
-  avatarUrl: "/me.jpg",
+    "I build full end-to-end AI automation & voice AI systems, not just workflows, but complete setups that actually saves time and money. My goal is to turn complex, manual business operations into smooth, 24/7 AI-powered systems that scale without breaking.",
+  summary1:
+    "I automate business operations using platforms like n8n, Make, and Zapier by connecting any CRMs, forms, calls, and databases into one intelligent flow. From onboarding and client management to lead qualification and internal ops, I design systems that cut hundreds of manual hours and keep teams focused on growth.",
+  summary2:
+    "Using tools like Vapi, ElevenLabs, Twilio, and GPT, I build AI voice agents that talk, qualify, and take action. These systems answer calls, handle bookings, update CRMs, and deliver full voice automation that saves companies tens of thousands of dollars a year.",
+  summary3:
+    "Beyond plug-and-play tools, I use Javascript, Python, and Next.js to build custom dashboards and real-time control panels that track automation performance live. This makes every system transparent, measurable, and easy to scale giving businesses true ownership of their automations.",
+  avatarUrl: "/mee.jpg",
   skills: [
     "React",
     "Next.js",
@@ -45,33 +58,33 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "yeabnoah5@gmail.com",
-    tel: "+251993940494",
+    email: "mulaturhobot7@gmail.com",
+    tel: "+251987000383",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/yeabnoah",
+        url: "https://github.com/roobiwebdev",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/yeabsra-ashebir-tech-nerd-8a3a80267/",
+        url: "https://www.linkedin.com/in/devnerd/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/TechNerd556",
+        url: "https://x.com/devnerd0",
         icon: Icons.x,
 
         navbar: true,
       },
       Telegram: {
         name: "Telegram",
-        url: "https://t.me/selfmadecoder",
+        url: "https://t.me/devnerdguy",
         icon: Icons.telegram,
         navbar: true,
       },
@@ -161,11 +174,11 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Addis Ababa University",
-      href: "https://www.aau.edu.et/",
-      degree: "Bachelor's of Electrical Engineering",
+      school: "Hawassa University",
+      href: "https://www.hu.edu.et/",
+      degree: "Bachelor's of Computer Science",
       logoUrl: "/aau1.png",
-      start: "2022",
+      start: "2023",
       end: "Dropped Out",
     },
   ],
