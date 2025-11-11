@@ -16,26 +16,30 @@ export default function Page() {
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
-          <div className="gap-2 flex justify-between">
-            <div className="flex-col flex flex-1 space-y-1.5">
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
-              />
-              <BlurFadeText
-                className="max-w-[600px] md:text-xl"
-                delay={BLUR_FADE_DELAY}
-                text={DATA.description}
-              />
-            </div>
-            <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-32 border">
+          <div className="gap-2 flex flex-col items-center md:flex-row md:justify-between">
+            <BlurFade delay={BLUR_FADE_DELAY} className="md:order-2">
+              <Avatar className="size-36 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
+            <div className="flex-col flex flex-1 w-full md:w-auto space-y-1.5 md:order-1 items-center md:items-start">
+              <div className="w-full flex justify-center md:justify-start">
+                <BlurFadeText
+                  delay={BLUR_FADE_DELAY}
+                  className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+                  yOffset={8}
+                  text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                />
+              </div>
+              <div className="w-full flex justify-center md:justify-start">
+                <BlurFadeText
+                  className="max-w-[600px] md:text-xl text-center md:text-left"
+                  delay={BLUR_FADE_DELAY}
+                  text={DATA.description}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -87,7 +91,10 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve helped businesses save time and money with AI-powered automations, voice agents, and real-time dashboards. Here are a few projects where my systems made a real impact.
+                  I&apos;ve helped businesses save time and money with
+                  AI-powered automations, voice agents, and real-time
+                  dashboards. Here are a few projects where my systems made a
+                  real impact.
                 </p>
               </div>
             </div>
@@ -164,7 +171,7 @@ export default function Page() {
           ))}
         </div>
       </section> */}
-      
+
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 15}>
@@ -186,19 +193,21 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Side Projects working on
+                  Let me Help Your Business!
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  Got a bottleneck? <br /> Let&apos;s build a soln together.
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I love to build a lot of side projects and Im a type of a
-                  person who likes to do projects for fun
+                  Whether it&apos;s an AI agent, automation system, ChatBot or
+                  full-stack product, I&apos;ll analyze your business, identify
+                  bottlenecks, and design a solution that helps you outsmart
+                  competitors and fits your exact workflow.
                 </p>
               </div>
             </div>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 20}>
+          {/* <BlurFade delay={BLUR_FADE_DELAY * 20}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
               {DATA.hackathons.map((project, id) => (
                 <BlurFade
@@ -216,7 +225,7 @@ export default function Page() {
                 </BlurFade>
               ))}
             </ul>
-          </BlurFade>
+          </BlurFade> */}
         </div>
       </section>
 
@@ -231,19 +240,23 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm with a direct question on{" "}
+                Want to chat? Just shoot me a message with a direct question on{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={DATA.contact.social.WhatsApp.url}
                   className="text-blue-500 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Twitter
+                  WhatsApp
                 </Link>{" "}
                 or{" "}
                 <Link
-                  href={DATA.contact.social.Telegram.url}
+                  href={DATA.contact.social.email.url}
                   className="text-blue-500 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Telegram{" "}
+                  Email{" "}
                 </Link>
                 and I&apos;ll respond immediately
               </p>
