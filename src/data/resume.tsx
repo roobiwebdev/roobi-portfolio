@@ -218,7 +218,7 @@ export const DATA = {
         "Built AI automations and voice agents that saved clients up to $65,000+/year. Designed full end-to-end systems, integrating CRMs, dashboards, and AI workflows for real-time business efficiency.",
     },
     {
-      company: "Quantamate.ai",
+      company: "Upstart.ai",
       badges: [],
       href: "#",
       location: "Remote",
