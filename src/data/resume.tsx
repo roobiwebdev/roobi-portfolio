@@ -19,9 +19,9 @@ export const DATA = {
   summary:
     "I build full end-to-end AI automation & voice AI systems, not just workflows, but complete setups that actually saves time and money. My goal is to turn complex, manual business operations into smooth, 24/7 AI-powered systems that scale without breaking.",
   summary1:
-    "I automate business operations using platforms like n8n, Make, and Zapier by connecting any CRMs, forms, calls, and databases into one intelligent flow. From onboarding and client management to lead qualification and internal ops, I design systems that cut hundreds of manual hours and keep teams focused on growth.",
+    "I automate business operations using tools like n8n, Make, and Zapier by connecting any CRMs, forms, calls, and databases into one intelligent flow. From onboarding and client management to lead qualification and internal ops, I design systems that cut hundreds of manual hours and keep teams focused on growth.",
   summary2:
-    "Using tools like Vapi, ElevenLabs, Twilio, and GPT, I build AI voice agents that talk, qualify, and take action. These systems answer calls, handle bookings, update CRMs, and deliver full voice automation that saves companies tens of thousands of dollars a year.",
+    "Using tools like Vapi, ElevenLabs, Retail, Twilio, and GPT, I build AI voice agents that talk, qualify, and take action. This system answer calls, handle bookings, update CRMs, and deliver full voice automation that saves companies tens of thousands of dollars a year.",
   summary3:
     "Beyond plug-and-play tools, I use Javascript, Python, and Next.js to build custom dashboards and real-time control panels that track automation performance live. This makes every system transparent, measurable, and easy to scale giving businesses true ownership of their automations.",
   avatarUrl: "/mee.JPG",
@@ -125,7 +125,7 @@ export const DATA = {
         url: "https://mail.google.com/mail/?view=cm&fs=1&to=mulaturhobot7@gmail.com",
         icon: Icons.email,
         navbar: false,
-      },      
+      },
     },
   },
 
@@ -479,6 +479,211 @@ export const DATA = {
         },
       ],
       image: "/soul.png",
+      video: "",
+    },
+    {
+      title: "No Junk: Android app",
+      href: "https://no-junk-landing.vercel.app/",
+      dates: "September 2024",
+      active: true,
+      description:
+        "No Junk is an Android app that helps users discover and share the most valuable content from across all social media. It streamlines content discovery, saves users time, and encourages community engagement by surfacing top posts efficiently.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "Firebase",
+        "Native-wind",
+        "Clerk",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://no-junk-landing.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/yeabnoah/No-Junk",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/noJunk.png",
+      video: "",
+    },
+    {
+      title: "Lyro AI Agent",
+      href: "",
+      dates: "September 2025",
+      active: true,
+      description:
+        "Boosted customer engagement and sales on an eCommerce camera tools website by providing instant AI support for pricing, product model checks, and detailed product guidance. Integrated into the client’s website to assist visitors 24/7, reducing customer support workload by 70% and increasing conversion rates by 18%.",
+      technologies: [
+        "Next.js",
+        "GPT",
+        "AI Chatbot",
+        "Ecommerce Integrations",
+        "CRM",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://edelkrone.com/", // add live link if available
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "", // add GitHub repo if public
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/lyro-ai-agent.png",
+      video: "",
+    },
+    {
+      title: "Orimon AI Bot",
+      href: "",
+      dates: "October 2025",
+      active: true,
+      description:
+        "Deployed a conversational AI bot that drives instant engagement and improves user onboarding. Enabled the client platform to automatically respond to customer queries, streamline onboarding, and provide personalized guidance, cutting manual support by 60% and increasing onboarding completion rate by 25%.",
+      technologies: [
+        "Next.js",
+        "GPT",
+        "AI Chatbot",
+        "Real-time Messaging",
+        "Automation",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://bot.orimon.ai/deploy/index.html?tenantId=538f4190-6d59-4c6f-9fa6-9ca9e127afb4&testBot=true&defaultOpen=true", // add live link
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://orimon.ai/?utm_source=client_bot&utm_medium=chatbot&utm_campaign=powered_by_link", // add GitHub repo if public
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/orimon-ai-bot.png",
+      video: "",
+    },
+    {
+      title: "Relevance AI Agent",
+      href: "",
+      dates: "November 2025",
+      active: true,
+      description:
+        "Embedded a powerful conversational AI with advanced tool integrations and memory capabilities, improving response accuracy and user satisfaction. The agent automatically retrieves relevant data using LangChain and Vector DB integrations, cutting research time by 50% and increasing customer task completion rate by 30%.",
+      technologies: [
+        "GPT",
+        "LangChain",
+        "Vector DB",
+        "AI Chatbot",
+        "Tool Integrations",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://app.relevanceai.com/agents/bcbe5a/f4e532452cc0-43f2-902c-409648b1382b/8c4553d6-9eca-4854-a300-93e0ca412313/embed-chat?hide_tool_steps=false&hide_file_uploads=false&hide_conversation_list=false&bubble_style=agent&primary_color=%23685FFF&bubble_icon=pd/chat&input_placeholder_text=Type+your+message...&hide_logo=false&conversationId=new", // add live link
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://relevanceai.com/", // add GitHub repo if public
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/relevance-ai-agent.png",
+      video: "",
+    },
+    {
+      title: "AI Influencer Video Generator",
+      href: "",
+      dates: "November 2025",
+      active: true,
+      description:
+        "Built an automated AI-driven UGC-style video content pipeline for influencers and brands. From a single Telegram message, the workflow generates 7 daily influencer scripts, creates images, converts them into videos with captions & hashtags, stores everything in Drive, and logs actions in Sheets. Reduced manual content creation time by 90% and enabled brands and agencies to scale campaigns efficiently without hiring extra editors.",
+      technologies: [
+        "n8n",
+        "OpenAI GPT",
+        "AI Video Generation",
+        "Telegram API",
+        "Google Drive",
+        "Google Sheets",
+        "Automation Pipelines",
+      ],
+      links: [
+        {
+          type: "Demo Workflow",
+          href: "", // add link if you have a public demo
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "", // add GitHub repo if public
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ai-infulencer-video-generator.png",
+      video: "",
+    },
+    {
+      title: "Sales Voice Agent",
+      href: "",
+      dates: "September 2025",
+      active: true,
+      description:
+        "Deployed an outbound voice AI that qualifies leads through natural conversations, automating initial outreach and scoring. Reduced manual calling time by 75%, engaged 1,500+ leads weekly, and increased qualified lead conversion by 22%.",
+      technologies: [
+        "VapiVoice AI",
+        "GPT",
+        "Voice Agent",
+        "CRM Integrations",
+        "Automation",
+      ],
+      links: [
+        {
+          type: "Test Agent",
+          href: "https://vapi.ai/?demo=true&shareKey=443f87ab-a416-4c4d-afeb-e7b295df26be&assistantId=9c63beb4-f919-47a6-9c30-4246541c28eb", // add live demo if available
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://vapi.ai", // GitHub repo if public
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/sales-voice-agent.png",
+      video: "",
+    },
+    {
+      title: "Product Support Voice Agent",
+      href: "",
+      dates: "October 2025",
+      active: true,
+      description:
+        "Built a real-time voice assistant for product support that guides users through troubleshooting and FAQs. Integrated Retail AI to handle queries instantly, reducing support call duration by 60% and increasing customer satisfaction by 30%.",
+      technologies: [
+        "Retail AI",
+        "GPT",
+        "Voice Agent",
+        "Automation",
+        "Real-time Support",
+      ],
+      links: [
+        {
+          type: "Test Agent",
+          href: "", // add demo link if available
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "", // add GitHub repo if public
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/product-support-voice-agent.webp",
       video: "",
     },
   ],
