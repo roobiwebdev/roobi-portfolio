@@ -21,7 +21,7 @@ export const DATA = {
   summary1:
     "I automate business operations using tools like n8n, Make, and Zapier by connecting any CRMs, forms, calls, and databases into one intelligent flow. From onboarding and client management to lead qualification and internal ops, I design systems that cut hundreds of manual hours and keep teams focused on growth.",
   summary2:
-    "Using tools like Vapi, ElevenLabs, Retail, Twilio, and GPT, I build AI voice agents that talk, qualify, and take action. This system answer calls, handle bookings, update CRMs, and deliver full voice automation that saves companies tens of thousands of dollars a year.",
+    "Using tools like Vapi, ElevenLabs, Retail, Twilio, and GPT, I build AI voice agent that talk, qualify, and take action. This system answer calls, handle bookings, update CRMs, and deliver full voice automation that saves companies tens of thousands of dollars a year.",
   summary3:
     "Beyond plug-and-play tools, I use Javascript, Python, and Next.js to build custom dashboards and real-time control panels that track automation performance live. This makes every system transparent, measurable, and easy to scale giving businesses true ownership of their automations.",
   avatarUrl: "/mee.JPG",
@@ -292,6 +292,7 @@ export const DATA = {
   projects: [
     {
       title: "Dental AI Receptionist",
+      type: "voice agent",
       href: "https://elevenlabs.io/app/talk-to?agent_id=agent_5101k8s9rharfy2vrpn742f8y7te",
       dates: "March 05 2025",
       active: true,
@@ -322,6 +323,7 @@ export const DATA = {
     },
     {
       title: "B2B Lead Qualification AI",
+      type: "AI Automations",
       href: "",
       dates: "April 23 2025",
       active: true,
@@ -345,6 +347,7 @@ export const DATA = {
     },
     {
       title: "Client Onboarding Automation",
+      type: "AI Automation",
       href: "",
       dates: "June 03 2025",
       active: true,
@@ -376,6 +379,7 @@ export const DATA = {
     },
     {
       title: "Admin Analytics",
+      type: "web app",
       href: "https://github.com/roobiwebdev/next-shadcn-dashboard-starter",
       dates: "October 2023 - march 2024",
       active: true,
@@ -406,6 +410,7 @@ export const DATA = {
     },
     {
       title: "HireonAI",
+      type: "web app",
       href: "https://hireon-aii.vercel.app/",
       dates: "April 2025 - Augest 2025",
       active: true,
@@ -437,6 +442,7 @@ export const DATA = {
     },
     {
       title: "Sumz AI",
+      type: "web app",
       href: "https://my-sumz-ai.vercel.app/",
       dates: "september 2024",
       active: true,
@@ -460,6 +466,7 @@ export const DATA = {
     },
     {
       title: "SoulScribe: Android app",
+      type: "mobile app",
       href: "https://soulscribe-landing.vercel.app/",
       dates: "March 2024",
       active: true,
@@ -483,6 +490,7 @@ export const DATA = {
     },
     {
       title: "No Junk: Android app",
+      type: "mobile app",
       href: "https://no-junk-landing.vercel.app/",
       dates: "September 2024",
       active: true,
@@ -512,6 +520,7 @@ export const DATA = {
     },
     {
       title: "Lyro AI Agent",
+      type: "chatbot",
       href: "",
       dates: "September 2025",
       active: true,
@@ -541,6 +550,7 @@ export const DATA = {
     },
     {
       title: "Orimon AI Bot",
+      type: "chatbot",
       href: "",
       dates: "October 2025",
       active: true,
@@ -570,6 +580,7 @@ export const DATA = {
     },
     {
       title: "Relevance AI Agent",
+      type: "chatbot",
       href: "",
       dates: "November 2025",
       active: true,
@@ -599,6 +610,7 @@ export const DATA = {
     },
     {
       title: "AI Influencer Video Generator",
+      type: "AI Automation",
       href: "",
       dates: "November 2025",
       active: true,
@@ -630,6 +642,7 @@ export const DATA = {
     },
     {
       title: "Sales Voice Agent",
+      type: "Voice Agent",
       href: "",
       dates: "September 2025",
       active: true,
@@ -659,6 +672,7 @@ export const DATA = {
     },
     {
       title: "Product Support Voice Agent",
+      type: "voice Agent",
       href: "",
       dates: "October 2025",
       active: true,
@@ -690,6 +704,7 @@ export const DATA = {
   hackathons: [
     {
       title: "React Native UI library",
+      type: "web app",
       dates: "a week ago",
       location: "active",
       description:
