@@ -346,6 +346,69 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Admin Analytics",
+      type: "web app",
+      href: "https://github.com/roobiwebdev/next-shadcn-dashboard-starter",
+      dates: "October 2023 - march 2024",
+      active: true,
+      description:
+        "Gave the business real-time insights into sales, visitor trends, and engagement, enabling faster decisions and improving revenue tracking. Built a dynamic admin dashboard showing interactive bar charts, stacked area trends, and visitor breakdowns. The dashboard tracks desktop/mobile traffic, recent sales, and browser usage, giving the team a clear picture of performance and helping them prioritize growth strategies.",
+      technologies: [
+        "JavaScript",
+        "Next.js",
+        "Typescript",
+        "Python",
+        "Data Visualization",
+        "Admin UX",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/roobiwebdev/next-shadcn-dashboard-starter",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/roobiwebdev/next-shadcn-dashboard-starter",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/dashboard.png",
+      video: "",
+    },
+    {
+      title: "Hireon AI",
+      type: "web app",
+      href: "https://hireon-aii.vercel.app/",
+      dates: "April 2025 - Augest 2025",
+      active: true,
+      description:
+        "Helps delelopers improve technical interview performance with instant AI feedback, boosting their confidence and readiness for real job interviews. Built an AI-powered platform that simulates real technical interviews, analyzes answers, and provides actionable feedback. Users can practice coding, system design, and behavioral questions, receiving personalized guidance to improve and score higher.",
+      technologies: [
+        "Next.js",
+        "Vapi AI",
+        "Typescript",
+        "Gemini",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hireon-aii.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/roobiwebdev/Hireon",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/hireon-ai.png",
+      video: "",
+    },
+    {
       title: "Client Onboarding Automation",
       type: "AI Automation",
       href: "",
@@ -378,66 +441,33 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Admin Analytics",
-      type: "web app",
-      href: "https://github.com/roobiwebdev/next-shadcn-dashboard-starter",
-      dates: "October 2023 - march 2024",
+      title: "Lyro AI Agent",
+      type: "chatbot",
+      href: "",
+      dates: "September 2025",
       active: true,
       description:
-        "Gave the business real-time insights into sales, visitor trends, and engagement, enabling faster decisions and improving revenue tracking. Built a dynamic admin dashboard showing interactive bar charts, stacked area trends, and visitor breakdowns. The dashboard tracks desktop/mobile traffic, recent sales, and browser usage, giving the team a clear picture of performance and helping them prioritize growth strategies.",
+        "Boosted customer engagement and sales on an eCommerce camera tools website by providing instant AI support for pricing, product model checks, and detailed product guidance. Integrated into the client’s website to assist visitors 24/7, reducing customer support workload by 70% and increasing conversion rates by 18%.",
       technologies: [
-        "JavaScript",
         "Next.js",
-        "Typescript",
-        "Python",
-        "Data Visualization",
-        "Admin UX",
+        "GPT",
+        "AI Chatbot",
+        "Ecommerce Integrations",
+        "CRM",
       ],
       links: [
         {
           type: "Website",
-          href: "https://github.com/roobiwebdev/next-shadcn-dashboard-starter",
+          href: "https://edelkrone.com/", // add live link if available
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/roobiwebdev/next-shadcn-dashboard-starter",
+          href: "", // add GitHub repo if public
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/dashboard.png",
-      video: "",
-    },
-    {
-      title: "HireonAI",
-      type: "web app",
-      href: "https://hireon-aii.vercel.app/",
-      dates: "April 2025 - Augest 2025",
-      active: true,
-      description:
-        "Helps delelopers improve technical interview performance with instant AI feedback, boosting their confidence and readiness for real job interviews. Built an AI-powered platform that simulates real technical interviews, analyzes answers, and provides actionable feedback. Users can practice coding, system design, and behavioral questions, receiving personalized guidance to improve and score higher.",
-      technologies: [
-        "Next.js",
-        "Vapi AI",
-        "Typescript",
-        "Gemini",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Vercel",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://hireon-aii.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/roobiwebdev/Hireon",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/hireon-ai.png",
+      image: "/lyro-ai-agent.png",
       video: "",
     },
     {
@@ -516,36 +546,6 @@ export const DATA = {
         },
       ],
       image: "/noJunk.png",
-      video: "",
-    },
-    {
-      title: "Lyro AI Agent",
-      type: "chatbot",
-      href: "",
-      dates: "September 2025",
-      active: true,
-      description:
-        "Boosted customer engagement and sales on an eCommerce camera tools website by providing instant AI support for pricing, product model checks, and detailed product guidance. Integrated into the client’s website to assist visitors 24/7, reducing customer support workload by 70% and increasing conversion rates by 18%.",
-      technologies: [
-        "Next.js",
-        "GPT",
-        "AI Chatbot",
-        "Ecommerce Integrations",
-        "CRM",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://edelkrone.com/", // add live link if available
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "", // add GitHub repo if public
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/lyro-ai-agent.png",
       video: "",
     },
     {

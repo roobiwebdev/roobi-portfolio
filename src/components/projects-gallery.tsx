@@ -126,14 +126,14 @@ export function ProjectsGallery() {
         <div className="flex justify-center pt-4">
           <button
             type="button"
-            className={`${baseBtn} ${inactiveBtn}`}
+            className={`${activeBtn} ${baseBtn}`}
             onClick={() =>
               setVisibleCount((c) =>
                 Math.min(c + INITIAL_VISIBLE, filtered.length)
               )
             }
           >
-            Load More
+            See More
           </button>
         </div>
       )}
