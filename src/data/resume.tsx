@@ -215,7 +215,7 @@ export const DATA = {
       start: "February 2024",
       end: "October 2025",
       description:
-        "Built AI automations and voice agents that saved clients up to $65,000+/year. Designed full end-to-end systems, integrating CRMs, dashboards, and AI workflows for real-time business efficiency.",
+        "Built AI automations and voice agents that saved clients up to $55K+/year. Designed full end-to-end systems, integrating CRMs, dashboards, and AI workflows for real-time business efficiency.",
     },
     {
       company: "Upstart.ai",
@@ -227,7 +227,7 @@ export const DATA = {
       start: "January 2025",
       end: "July 2025",
       description:
-        "I worked as a Machine Learning Engineer, deploying real-time ML pipelines that processed over 1M events per hour. I tuned and optimized LLM models for accuracy, collaborated with data and backend teams to integrate AI insights into production, and built scalable ML infrastructure to power analytics and automation.",
+        "I tuned and optimized LLM models for accuracy, collaborated with data and backend teams to integrate AI insights into production, and built scalable ML infrastructure to power analytics and automation.",
     },
     {
       company: "MegaMess",
