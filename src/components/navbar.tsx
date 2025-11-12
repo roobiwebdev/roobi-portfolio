@@ -10,6 +10,7 @@ import {
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+// import { BookCallButton } from "@/components/book-call-button";
 
 export default function Navbar() {
   return (
@@ -76,6 +77,13 @@ export default function Navbar() {
             </TooltipContent>
           </Tooltip>
         </DockIcon>
+        {/* <Separator orientation="vertical" className="h-full" />
+        <DockIcon className="px-2">
+          <BookCallButton
+            size="sm"
+            className="px-4 text-xs font-semibold leading-none"
+          />
+        </DockIcon> */}
       </Dock>
     </div>
   );

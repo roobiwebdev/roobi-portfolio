@@ -8,6 +8,8 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { ProjectsGallery } from "@/components/projects-gallery";
+import { BookCallButton } from "@/components/book-call-button";
+import { Button } from "@/components/ui/button";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -41,6 +43,27 @@ export default function Page() {
                   text={DATA.description}
                 />
               </div>
+              <BlurFade delay={BLUR_FADE_DELAY * 2}>
+                <div className="flex w-full flex-col items-center gap-3 pt-4 sm:flex-row sm:justify-start">
+                  <BookCallButton fullWidth className="sm:w-auto w-full">
+                    Book a Call
+                  </BookCallButton>
+                  <Button
+                    asChild
+                    variant="outline"
+                    size="lg"
+                    className="sm:w-auto py-[21px] w-full"
+                  >
+                    <Link
+                      href={DATA.contact.social.WhatsApp.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Chat on WhatsApp
+                    </Link>
+                  </Button>
+                </div>
+              </BlurFade>
             </div>
           </div>
         </div>
@@ -159,7 +182,7 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 15}>
-            <h2 className="text-xl font-bold">Skills</h2>
+            <h2 className="text-xl font-bold">Skills & Tools</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
@@ -189,6 +212,14 @@ export default function Page() {
                   competitors and fits your exact workflow.
                 </p>
               </div>
+
+              <BlurFade delay={BLUR_FADE_DELAY * 23}>
+                <div className="w-full max-w-sm mx-auto mt-3">
+                  <BookCallButton fullWidth className="w-auto">
+                    Book a Call
+                  </BookCallButton>
+                </div>
+              </BlurFade>
             </div>
           </BlurFade>
           {/* <BlurFade delay={BLUR_FADE_DELAY * 20}>
@@ -246,6 +277,16 @@ export default function Page() {
               </p>
             </div>
           </BlurFade>
+          {/* <h1 className="mt-[-10px]  mb-2 mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            OR
+          </h1>
+          <BlurFade delay={BLUR_FADE_DELAY * 23}>
+            <div className="w-full max-w-sm mx-auto">
+              <BookCallButton fullWidth className="w-auto">
+                Book a Call
+              </BookCallButton>
+            </div>
+          </BlurFade> */}
         </div>
       </section>
     </main>

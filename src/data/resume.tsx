@@ -92,6 +92,10 @@ export const DATA = {
   contact: {
     email: "mulaturhobot7@gmail.com",
     tel: "+251987000383",
+    booking: {
+      label: "Book a Call",
+      url: "https://cal.com/roobi/30min",
+    },
     social: {
       GitHub: {
         name: "GitHub",
