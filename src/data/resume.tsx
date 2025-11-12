@@ -206,16 +206,16 @@ export const DATA = {
 
   work: [
     {
-      company: "Workvolve.ai",
+      company: "Animoveo.com",
       badges: [],
-      href: "#",
+      href: "https://animoveo.com",
       location: "Remote",
-      title: "Automation Specialist",
+      title: "AI Automation Specialist",
       logoUrl: "/workvolve.jpeg",
       start: "February 2024",
       end: "October 2025",
       description:
-        "Built AI automations and voice agents that saved clients up to $55K+/year. Designed full end-to-end systems, integrating CRMs, dashboards, and AI workflows for real-time business efficiency.",
+        "Built AI automations and voice agents for real estate agencies — including a full lead reactivation system that brought back inactive clients. Designed end-to-end systems integrating CRMs, dashboards, and AI workflows for real-time business efficiency.",
     },
     {
       company: "Upstart.ai",
@@ -293,7 +293,7 @@ export const DATA = {
     {
       title: "Dental AI Receptionist",
       type: "voice agent",
-      href: "https://elevenlabs.io/app/talk-to?agent_id=agent_5101k8s9rharfy2vrpn742f8y7te",
+      href: "https://elevenlabs.io",
       dates: "March 05 2025",
       active: true,
       description:
@@ -309,12 +309,12 @@ export const DATA = {
       links: [
         {
           type: "Test Agent",
-          href: "https://elevenlabs.io/app/talk-to?agent_id=agent_5101k8s9rharfy2vrpn742f8y7te",
+          href: "https://elevenlabs.io",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/roobiwebdev/dental-ai-receptionist",
+          href: "https://github.com/roobiwebdev/",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -332,13 +332,13 @@ export const DATA = {
       technologies: ["Automation", "n8n", "CRM Integrations", "OpenAI API"],
       links: [
         {
-          type: "Test Agent",
+          type: "Test",
           href: "",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/roobiwebdev/b2b-lead-qualification-ai",
+          href: "https://github.com/roobiwebdev",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -511,7 +511,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/yeabnoah/soulscribe",
+          href: "https://github.com/roobiwebdev",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -541,7 +541,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/yeabnoah/No-Junk",
+          href: "https://github.com/roobiwebdev",
           icon: <Icons.github className="size-3" />,
         },
       ],
