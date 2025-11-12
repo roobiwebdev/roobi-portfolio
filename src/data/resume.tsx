@@ -248,7 +248,7 @@ export const DATA = {
       location: "Remote",
       title: "Independent Developer",
       logoUrl: "/nerdspace.png",
-      start: "September 2024",
+      start: "September 2022",
       end: "Augest 2025",
       description:
         "Built and shipped multiple full-stack and AI-powered products, including an AI article summarizer and productivity tools using Next.js, TypeScript, Python, and OpenAI API. Contributed to open-source projects while focusing on system architecture, performance optimization, and reusable components that streamline development and enhance user experience.",
