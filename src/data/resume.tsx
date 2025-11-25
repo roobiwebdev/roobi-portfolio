@@ -24,7 +24,7 @@ export const DATA = {
     "Using tools like Vapi, ElevenLabs, Retail, Twilio, and GPT, I build AI voice agent that talk, qualify, and take action. This system answer calls, handle bookings, update CRMs, and deliver full voice automation that saves companies tens of thousands of dollars a year.",
   summary3:
     "Beyond plug-and-play tools, I use Javascript, Python, and Next.js to build custom dashboards and real-time control panels that track automation performance live. This makes every system transparent, measurable, and easy to scale giving businesses true ownership of their automations.",
-  avatarUrl: "/mee.JPG",
+  avatarUrl: "/mee.png",
   skills: [
     // AI & Automation
     "AI Automation",
